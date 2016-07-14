@@ -1,5 +1,3 @@
-class TowerOfHanoi
-	def initialize
-		puts "Hello"
-	end
+module TowerOFHanoi
+  autoload :CLI, "TowerOFHanoi/cli"
 end
